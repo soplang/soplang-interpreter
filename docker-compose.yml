@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  soplang:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: soplang:latest
+    container_name: soplang
+    volumes:
+      - .:/scripts
+    working_dir: /scripts
+    tty: true
+    stdin_open: true

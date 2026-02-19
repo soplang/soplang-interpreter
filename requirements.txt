@@ -1,0 +1,13 @@
+# Core dependencies for Soplang
+colorama>=0.4.0
+prompt_toolkit>=3.0.0
+
+# Optional dependencies - installed conditionally based on platform
+# readline>=8.0 # Not compatible with Windows, installed automatically on Unix systems
+
+# Development dependencies
+pytest>=7.0.0
+pytest-cov>=4.0.0
+flake8>=6.0.0
+black>=23.0.0
+pre-commit>=3.5.0

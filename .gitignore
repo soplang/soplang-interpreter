@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions and compiled files
+*.o
+*.out
+bin/
+obj/
+csrc/bin/
+py_compiled/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and debugging
+*.log
+debug_output*
+
+# Generated files
+soplang_c
+soplang_c.c
+test_compilation.c
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Soplang specific
+.soplang_history 
+
+# macOS
+.DS_Store
